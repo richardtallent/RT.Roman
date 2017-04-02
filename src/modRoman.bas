@@ -87,6 +87,9 @@ End Function
 ' *********************************************************************************
 Public Function DecimalToRoman(ByVal i As Integer) As String
     Application.Volatile False ' Pure function
+
+    If i <= 0 Then Exit Function
+
     Dim s As String
 
     ' Thousands
