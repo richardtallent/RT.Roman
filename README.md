@@ -1,3 +1,7 @@
+Update 2019-03-25
+=================
+Apparently I failed to notice that Microsoft recently added the ARABIC() and ROMAN() functions to do exactly what this library does. I'm keeping this here in case anyone needs to support older versions of Excel, but since I'm using fairly modern Excel versions at work and home, I won't be making any changes to this library.
+
 Purpose
 =======
 Latin may be dead for most humans, but Roman numeral are still used for everything from document outlines to generational names to seismology. My own needs stemmed from working with legal documents in Excel. I couldn't find a decent set of functions to convert back and forth between decimal and Roman, so I rolled my own in VBA (another language that's not quite dead yet).
